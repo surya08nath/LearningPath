@@ -1,6 +1,7 @@
 let ctr=0;
 function callback(){
-    console.log(ctr);
+    const el=document.querySelectorAll("h3")[1];
+    el.innerHTML=ctr;
     ctr+=1;
 }
 
